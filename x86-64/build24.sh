@@ -63,6 +63,17 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# Hunter自用
+PACKAGES="$PACKAGES luci-app-autoreboot"
+PACKAGES="$PACKAGES luci-app-ddnsto"
+PACKAGES="$PACKAGES luci-app-unblockmusic"
+PACKAGES="$PACKAGES luci-app-uugamebooster"
+PACKAGES="$PACKAGES luci-app-leigod-acc"
+PACKAGES="$PACKAGES luci-app-wireguard"
+PACKAGES="$PACKAGES luci-app-mwan3helper"
+PACKAGES="$PACKAGES luci-app-mwan3"
+PACKAGES="$PACKAGES luci-app-easytier"
+PACKAGES="$PACKAGES luci-app-zerotier"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
